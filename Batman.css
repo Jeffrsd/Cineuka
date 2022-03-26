@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #0e0c0c;
+}
+
+/* inicio da customização do menu */
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h1-principal {
+  color: white;
+  text-transform: uppercase;
+  margin: 48px 140px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
+}
+
+.links {
+  padding: 48px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+
+.links {
+  font-size: 16px;
+}
+
+.links:hover {
+  color: red;
+  transition: 0, 2s ease-in;
+}
+
+.search {
+  padding-right: 12px;
+}
+
+/* fim do cabeçalho principal*/
+
+/* incio customização do player do vídeo*/
+
+.frame-filme {
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  width: 840px;
+  height: 480px;
+  border: red solid 2px;
+  border-radius: 20px;
+}
+
+/* section video*/
+
+.nome-filme {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-top: 24px;
+  margin-right: 250px;
+}
+
+.titulo-filme {
+  color: white;
+  text-transform: uppercase;
+}
+
+.sinopse {
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: start;
+}
+
+.data {
+  color: white;
+  font-weight: 700;
+}
+
+.diretor {
+  color: white;
+  font-weight: 700;
+}
+
+.data-março {
+  color: white;
+  font-weight: 100;
+}
+
+/* fim da section video*/
+/*inico footer*/
+.h4-footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 12px;
+}
+/*fim do foooter*/

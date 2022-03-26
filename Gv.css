@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #0e0c0c;
+}
+
+/* inicio da customização do menu */
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h1-principal {
+  color: white;
+  text-transform: uppercase;
+  margin: 48px 140px;
+  cursor: pointer;
+}
+
+.euk {
+  color: red;
+  text-decoration: none;
+}
+
+.links {
+  padding: 48px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+
+.links {
+  font-size: 16px;
+}
+
+.links:hover {
+  color: red;
+  transition: 0, 2s ease-in;
+}
+
+.search {
+  padding-right: 12px;
+}
+
+/* fim do cabeçalho principal*/
+
+/* Inicio da primeira section*/
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+
+.section-texto {
+  margin-left: 140px;
+  padding-bottom: 48px;
+}
+
+.cidade-texto {
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.batman {
+  height: 390px;
+  width: 266px;
+  border-radius: 10px;
+}
+
+.drive {
+  height: 390px;
+  width: 266px;
+  border-radius: 10px;
+}
+
+.malvados {
+  height: 390px;
+  width: 266px;
+  border-radius: 10px;
+}
+
+.batman-texto {
+  font-size: 14px;
+  color: rgb(243, 234, 234);
+  text-decoration: none;
+}
+
+.drive-texto {
+  font-size: 14px;
+  color: rgb(243, 234, 234);
+  text-decoration: none;
+}
+
+.malvados-texto {
+  font-size: 14px;
+  color: rgb(243, 234, 234);
+  text-decoration: none;
+}
+
+span {
+  color: rgb(48, 48, 207);
+  text-decoration: underline;
+}
+
+span:hover {
+  color: red;
+  transition: 0, 5ms;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 12px;
+}

@@ -1,0 +1,130 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #0e0c0c;
+}
+
+/* inicio da customização do menu */
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h1-principal {
+  color: white;
+  text-transform: uppercase;
+  margin: 48px 140px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
+}
+
+.links {
+  padding: 48px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+
+.links {
+  font-size: 16px;
+}
+
+.links:hover {
+  color: red;
+  transition: 0, 2s ease-in;
+}
+
+.search {
+  padding-right: 12px;
+}
+
+/* fim do cabeçalho principal*/
+
+/* Inicio section principal*/
+
+.cine-principal {
+  display: flex;
+  flex-direction: column;
+}
+
+.cinesercla {
+  width: 1160px;
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cinesercla {
+  padding: 24px;
+}
+
+.Governador {
+  text-decoration: none;
+  color: white;
+}
+
+.Governador {
+  background-color: #221f1f;
+  border-radius: 30px;
+  padding: 12px 40px;
+}
+
+.Governador {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.Governador:hover {
+  background-color: red;
+  transition: 0, 5ms;
+}
+
+.gov {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 0;
+  gap: 24px;
+  padding-left: 90px;
+}
+
+.Ipatinga {
+  text-decoration: none;
+  color: white;
+}
+
+.Ipatinga {
+  background-color: #221f1f;
+  border-radius: 30px;
+  padding: 12px 80px;
+}
+
+.Ipatinga {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.Ipatinga:hover {
+  background-color: red;
+  transition: 0, 5ms;
+}
+
+/* fim da section principal*/
+
+/* Inicio Footer*/
+
+.h4-footer {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 12px;
+}
